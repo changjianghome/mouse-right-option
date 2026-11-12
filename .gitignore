@@ -1,0 +1,17 @@
+# 构建产物
+build/
+*.app
+*.dSYM
+*.o
+
+# 系统文件
+.DS_Store
+
+# 本机私有：签名证书与私钥绝不入库
+signing/
+*.p12
+*.pem
+*.key
+
+# 本地运行日志
+*.log
